@@ -12,10 +12,10 @@ If you're using React then some common options are [react-transform-hmr](https:/
 
 See [example/](./example/) for an example of usage.
 
-First, install the npm module.
+First, install the yarn module.
 
 ```sh
-npm install --save-dev webpack-hot-middleware
+yarn add webpack-hot-middleware-koa2 -D
 ```
 
 Next, enable hot reloading in your webpack config:
