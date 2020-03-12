@@ -15,7 +15,7 @@ See [example/](./example/) for an example of usage.
 First, install the yarn module.
 
 ```sh
-yarn add webpack-hot-middleware-koa2 -D
+yarn add webpack-hmr-koa2 -D
 ```
 
 Next, enable hot reloading in your webpack config:
