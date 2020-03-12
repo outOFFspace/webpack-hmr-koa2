@@ -75,7 +75,7 @@ function createEventStream(heartbeat) {
     close: function() {
       clearInterval(interval);
       everyClient(function(client) {
-        if (!client.finished) client.end();
+        if (!client.finished) client.write('');
       });
       clients = {};
     },
@@ -102,7 +102,7 @@ function createEventStream(heartbeat) {
       var id = clientId++;
       clients[id] = res;
       req.on('close', function() {
-        if (!res.finished) res.end();
+        if (!res.finished) res.write('');
         delete clients[id];
       });
     },
