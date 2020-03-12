@@ -1,4 +1,4 @@
-# Webpack Hot Middleware
+# Webpack Hot Middleware for Koa2
 
 Webpack hot reloading using only [webpack-dev-middleware](https://webpack.js.org/guides/development/#webpack-dev-middleware). This allows you to add hot reloading into an existing server without [webpack-dev-server](https://webpack.js.org/configuration/dev-server/).
 
